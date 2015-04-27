@@ -1,0 +1,16 @@
+﻿Build started 2015-04-25 17:37:45.
+     1>Project "D:\Unreal Engine\TeraNowaProject\TeraNova\Intermediate\ProjectFiles\TeraNova.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "D:\Program Files\Epic Games\4.7\Engine\Build\BatchFiles\Build.bat" TeraNovaEditor Win64 Development "D:\Unreal Engine\TeraNowaProject\TeraNova\TeraNova.uproject" -rocket
+         Performing 2 actions (4 in parallel)
+         TeraNovaGameMode.cpp
+         [2/2] Link UE4Editor-TeraNova.dll
+            Creating library D:\Unreal Engine\TeraNowaProject\TeraNova\Intermediate\Build\Win64\TeraNovaEditor\Development\UE4Editor-TeraNova.lib and object D:\Unreal Engine\TeraNowaProject\TeraNova\Intermediate\Build\Win64\TeraNovaEditor\Development\UE4Editor-TeraNova.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Cumulative action seconds (4 processors): 0,00 building projects, 55,08 compiling, 0,00 creating app bundles, 0,00 generating debug info, 1,23 linking, 0,00 other
+         UBT execution time: 61,64 seconds
+     1>Done Building Project "D:\Unreal Engine\TeraNowaProject\TeraNova\Intermediate\ProjectFiles\TeraNova.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:02.90

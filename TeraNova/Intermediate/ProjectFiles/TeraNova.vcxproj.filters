@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TeraNova.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{155C272E-3408-4250-AFE9-F21B93DE38AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TeraNova.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TeraNovaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DF2CFF5E-CAF8-4E3B-AF16-C35565B35180}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TeraNova">
+      <UniqueIdentifier>{E588697F-CB4F-4AA4-A8AD-E10C1EBB1CFE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TeraNova\TeraNova.Build.cs">
+      <Filter>Source\TeraNova</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TeraNova\TeraNova.cpp">
+      <Filter>Source\TeraNova</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeraNova\TeraNova.h">
+      <Filter>Source\TeraNova</Filter>
+    </ClInclude>
+    <Filter Include="Source\TeraNova\Camera">
+      <UniqueIdentifier>{797F9AB6-50B2-4A74-A876-E1B5679BBED9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TeraNova\Camera\CameraPawn.cpp">
+      <Filter>Source\TeraNova\Camera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TeraNova\Camera\CameraPawn.h">
+      <Filter>Source\TeraNova\Camera</Filter>
+    </ClInclude>
+    <Filter Include="Source\TeraNova\Resources">
+      <UniqueIdentifier>{67F746A1-99E4-4023-B216-4E97B69591B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TeraNova\Resources\Windows">
+      <UniqueIdentifier>{90B1FA37-2E6C-4015-AE8C-54E25C8CB380}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\TeraNova\Resources\Windows\TeraNova.rc">
+      <Filter>Source\TeraNova\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TeraNova\Camera\RTSCameraController.h">
+      <Filter>Source\TeraNova\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TeraNova\Characters\CharacterV1.h">
+      <Filter>Source\TeraNova\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TeraNova\TeraNovaGameMode.h">
+      <Filter>Source\TeraNova</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TeraNova\TeraNovaPlayerController.h">
+      <Filter>Source\TeraNova</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TeraNova\Camera\RTSCameraController.cpp">
+      <Filter>Source\TeraNova\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TeraNova\Characters\CharacterV1.cpp">
+      <Filter>Source\TeraNova\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TeraNova\TeraNovaGameMode.cpp">
+      <Filter>Source\TeraNova</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TeraNova\TeraNovaPlayerController.cpp">
+      <Filter>Source\TeraNova</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\TeraNova\Characters">
+      <UniqueIdentifier>{a394b6ea-1550-4dc5-93a8-2598801a2f83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
