@@ -12,7 +12,5 @@ ATeraNovaGameMode::ATeraNovaGameMode(const FObjectInitializer& ObjectInitializer
 	{
 		PlayerControllerClass = PlayerControllerBPClass.Class;
 	}
-
-	// Commit test - Arek
 }
 
